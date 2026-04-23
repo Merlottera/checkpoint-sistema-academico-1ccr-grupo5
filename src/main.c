@@ -47,6 +47,10 @@ void calcular_derivada() {
     printf("f'(x) = %.2fx + %.2f\n", 2 * a, b);
 }
 
+void sair() {
+    printf("Finalizando programa...");
+} 
+
 void console(void){
     printf("==============================\n");  
     printf("     SISTEMA EQUIPE STIG4     \n"); 
@@ -74,9 +78,9 @@ int main() {
     if (number > 6 || number < 1){
         printf("Numero invalido");
         return 0;
-    }
-
     } // Adiciona tratativa de entrada de dados
+
+     
     
     return 0;
 }
