@@ -1,12 +1,16 @@
 #include <stdio.h>
 
-float num1, num2;
+float num1, num2, media;
 
 void inserir_notas() {
     printf("Insira a nota 1: ");
     scanf("%f", &num1);
     printf("Insira a nota 2: ");
     scanf("%f", &num2);
+}
+
+void calcular_media() {
+    media = (num1 + num2) / 2;
 }
 
 
