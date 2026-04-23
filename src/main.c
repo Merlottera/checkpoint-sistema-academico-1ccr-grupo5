@@ -21,6 +21,21 @@ void verificar_situacao() {
     }
 }
 
+void exibir_resultado() {
+    printf("==============================\n");
+    printf("  RESULTADO\n");
+    printf("==============================\n");
+    printf("Nota 1: %.2f\n", num1);
+    printf("Nota 2: %.2f\n", num2);
+    printf("Media:  %.2f\n", media);
+    if (media >= 6) {
+        printf("Situacao: Aprovado\n");
+    } else {
+        printf("Situacao: Reprovado\n");
+    }
+    printf("==============================\n");
+}
+
 void console(void){
     printf("==============================\n");  
     printf("     SISTEMA EQUIPE STIG4     \n"); 
