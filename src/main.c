@@ -36,6 +36,17 @@ void exibir_resultado() {
     printf("==============================\n");
 }
 
+void calcular_derivada() {
+    float a, b, c;
+    printf("Informe o coeficiente a: ");
+    scanf("%f", &a);
+    printf("Informe o coeficiente b: ");
+    scanf("%f", &b);
+    printf("Informe o coeficiente c: ");
+    scanf("%f", &c);
+    printf("f'(x) = %.2fx + %.2f\n", 2 * a, b);
+}
+
 void console(void){
     printf("==============================\n");  
     printf("     SISTEMA EQUIPE STIG4     \n"); 
