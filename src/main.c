@@ -65,9 +65,6 @@ void console(void){
     // Adicionando opcoes para usuario escolher
 }
 
-
-
-
 int main() {
 
     int flag = 1;
@@ -79,11 +76,25 @@ int main() {
         scanf("%d", &number);
 
         switch(number) {
-            
-            
+            case 1:
+                inserir_notas();
+                break;
+            case 2:
+                calcular_media();
+                break;
+            case 3:
+                verificar_situacao();
+                break;
+            case 4:
+                exibir_resultado();
+                break;
+            case 5:
+                calcular_derivada();
+                break;
             case 6:
-            sair(); 
-            flag = 0; break;
+                sair(); 
+            flag = 0; 
+            break;
 
         } // Cria estrutura switch case 
 
@@ -94,8 +105,5 @@ int main() {
 
     }while(flag != 0); // Cria estrutura do-while e variável flag para condição de saída do loop
 
-    
-     
-    
     return 0;
 }
