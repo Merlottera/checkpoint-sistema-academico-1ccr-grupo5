@@ -1,7 +1,7 @@
 # Checkpoint - Sistema Acadêmico em C
 
 ## Integrantes
-- Gabriel Fagundes - RM569074
+- Gabriel Fagundes - RM569074 (yKushz)
 - Gabriel Freitas - RM572943
 - Giovanni Merlotti - RM573721
 - Glauco Kelly - RM572840
