@@ -9,7 +9,7 @@ int main() {
     printf("Digite a segunda nota: ");
     scanf("%f", &nota2); // Adiciona & para indicar corretamente o ponteiro nota2
 
-    media = nota1 + nota2 / 2;
+    media = (nota1 + nota2) / 2; // Adiciona parênteses para cálculo correto da média
 
     if (media = 6) {
         printf("Aluno aprovado\n");
