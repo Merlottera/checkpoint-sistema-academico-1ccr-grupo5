@@ -1,4 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
+
+float num1, num2;
+
+void inserir_notas() {
+    printf("Insira a nota 1: ");
+    scanf("%f", &num1);
+    printf("Insira a nota 2: ");
+    scanf("%f", &num2);
+}
 
 
 void console(void){
@@ -19,14 +28,17 @@ void console(void){
 
 
 int main() {
+
     console();
-    
+
     int number;
     scanf("%d", &number);
 
     if (number > 6 || number < 1){
         printf("Numero invalido");
         return 0;
+    }
+
     } // Adiciona tratativa de entrada de dados
     
     return 0;
