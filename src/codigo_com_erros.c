@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h> // Corrige importação da biblioteca stdio
 
 int main() {
     float nota1, nota2, media; // Adiciona ponto e vírgula no final da declaração de floats 
