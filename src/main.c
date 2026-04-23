@@ -13,6 +13,13 @@ void calcular_media() {
     media = (num1 + num2) / 2;
 }
 
+void verificar_situacao() {
+    if (media >= 6) {
+        printf("Situacao: Aprovado\n");
+    } else {
+        printf("Situacao: Reprovado\n");
+    }
+}
 
 void console(void){
     printf("==============================\n");  
