@@ -11,6 +11,7 @@ void inserir_notas() {
 
 void calcular_media() {
     media = (num1 + num2) / 2;
+    printf("Media calculada: %.2f\n", media);
 }
 
 void verificar_situacao() {
