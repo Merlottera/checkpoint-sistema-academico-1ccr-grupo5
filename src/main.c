@@ -19,7 +19,6 @@ void console(void){
 
 
 int main() {
-    
     console();
     
     int number;
@@ -28,7 +27,7 @@ int main() {
     if (number > 6 || number < 1){
         printf("Numero invalido");
         return 0;
-    } // Adicionando tratativa de entrada de dados
+    } // Adiciona tratativa de entrada de dados
     
     return 0;
 }
