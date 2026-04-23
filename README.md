@@ -1,5 +1,13 @@
 # Checkpoint - Sistema Acadêmico em C
 
+## Integrantes
+- Gabriel Fagundes - RM569074
+- Gabriel Freitas - RM572943
+- Giovanni Merlotti - RM573721
+- Glauco Kelly - RM572840
+- Sergio Augusto - RM570184
+- Thiago Renatino - RM569073
+
 ## Modalidade
 Grupo de 5 integrantes
 
