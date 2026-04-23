@@ -11,7 +11,7 @@ int main() {
 
     media = (nota1 + nota2) / 2; // Adiciona parênteses para cálculo correto da média
 
-    if (media = 6) {
+    if (media >= 6) { // Corrige uso correto do operador de comparação
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n");
