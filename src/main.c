@@ -48,7 +48,7 @@ void calcular_derivada() {
 }
 
 void sair() {
-    printf("Finalizando programa...");
+    printf("Finalizando programa...\n");
 } 
 
 void console(void){
@@ -70,16 +70,31 @@ void console(void){
 
 int main() {
 
-    console();
+    int flag = 1;
 
-    int number;
-    scanf("%d", &number);
+    do{
+        console();
 
-    if (number > 6 || number < 1){
-        printf("Numero invalido");
-        return 0;
-    } // Adiciona tratativa de entrada de dados
+        int number;
+        scanf("%d", &number);
 
+        switch(number) {
+            
+            
+            case 6:
+            sair(); 
+            flag = 0; break;
+
+        } // Cria estrutura switch case 
+
+        if (number > 6 || number < 1){
+            printf("Numero invalido");
+            return 0;
+        } // Adiciona tratativa de entrada de dados
+
+    }while(flag != 0); // Cria estrutura do-while e variável flag para condição de saída do loop
+
+    
      
     
     return 0;
