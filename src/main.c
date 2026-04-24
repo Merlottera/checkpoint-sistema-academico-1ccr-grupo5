@@ -3,10 +3,18 @@
 float num1, num2, media;
 
 void inserir_notas() {
-    printf("Insira a nota 1: ");
-    scanf("%f", &num1);
-    printf("Insira a nota 2: ");
-    scanf("%f", &num2);
+        do {
+        printf("Insira a nota 1: ");
+        scanf("%f", &num1);
+
+        printf("Insira a nota 2: ");
+        scanf("%f", &num2);
+
+        if (num1 < 0 || num1 > 10 || num2 < 0 || num2 > 10) {
+            printf("Notas invalidas. Insira novamente.\n");
+        }
+
+    } while (num1 < 0 || num1 > 10 || num2 < 0 || num2 > 10);
 }
 
 void calcular_media() {
